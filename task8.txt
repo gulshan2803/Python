@@ -1,0 +1,44 @@
+Different Data Structures in Python
+
+1. Stack Data Structure 
+A stack is a linear data structure that follows the principle of Last In First Out (LIFO). This means the last element inserted inside the stack is removed first.
+
+LIFO Principle of Stack
+In programming terms, putting an item on top of the stack is called push and removing an item is called pop.
+
+2. Queue Data Structure 
+A queue is a useful data structure in programming. It is similar to the ticket queue outside a cinema hall, where the first person entering the queue is the first person who gets the ticket.
+
+Queue follows the First In First Out (FIFO) rule - the item that goes in first is the item that comes out first.
+In programming terms, putting items in the queue is called enqueue, and removing items from the queue is called dequeue.
+
+
+3. Linked List Data Structure
+A linked list is a linear data structure that includes a series of connected nodes. Here, each node store the data and the address of the next node.Linked lists can be of multiple types: singly, doubly, and circular linked list. 
+
+
+4. Tree Data Structure
+A tree is a nonlinear hierarchical data structure that consists of nodes connected by edges.
+Other data structures such as arrays, linked list, stack, and queue are linear data structures that store data sequentially. In order to perform any operation in a linear data structure, the time complexity increases with the increase in the data size. But, it is not acceptable in today's computational world.
+
+Different tree data structures allow quicker and easier access to the data as it is a non-linear data structure.
+A collection of disjoint trees is called a forest.
+
+Tree Applications
+Binary Search Trees(BSTs) are used to quickly check whether an element is present in a set or not.
+
+Heap is a kind of tree that is used for heap sort.
+
+A modified version of a tree called Tries is used in modern routers to store routing information.
+
+Most popular databases use B-Trees and T-Trees, which are variants of the tree structure we learned above to store their data
+Compilers use a syntax tree to validate the syntax of every program you write.
+
+
+5.  Graph Data Structure
+A graph data structure is a collection of nodes that have data and are connected to other nodes.
+
+Let's try to understand this through an example. On facebook, everything is a node. That includes User, Photo, Album, Event, Group, Page, Comment, Story, Video, Link, Note...anything that has data is a node.
+
+Every relationship is an edge from one node to another. Whether you post a photo, join a group, like a page, etc., a new edge is created for that relationship.All of facebook is then a collection of these nodes and edges. This is because facebook uses a graph data structure to store its data.
+
